@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0; }
   
+    
   html {
     font-size: 62.5%; }
   
@@ -161,7 +162,7 @@
     text-transform: uppercase; }
   
   .underline, .underline:link, .underline:active {
-    border-bottom: 4px solid hsl(153,71%,59%);
+    border-bottom: 4px solid hsl(266, 100%, 64%);
     color: currentColor;
     text-decoration: none; }
   
@@ -184,18 +185,18 @@
   
   .btn--green:link, .btn--green:visited {
     color: hsl(0,0%,100%);
-    border-bottom: 2px solid hsl(153,71%,59%); }
+    border-bottom: 2px solid hsl(266, 100%, 64%); }
   
   .btn--green:hover, .btn--green:active {
-    color: hsl(153,71%,59%); }
+    color: hsl(266, 100%, 64%); }
   
   .btn--form {
     color: hsl(0,0%,100%);
-    border-bottom: 2px solid hsl(153,71%,59%);
+    border-bottom: 2px solid hsl(266, 100%, 64%);
     background-color: transparent; }
   
   .btn--form:hover, .btn--form:active {
-    color: hsl(153,71%,59%); }
+    color: hsl(266, 100%, 64%); }
   
   .header {
     grid-column: center-start / center-end;
@@ -263,7 +264,7 @@
       -webkit-transition: all 300ms ease-in-out; }
     .header__social-link:hover .header__social-svg .header__social-logo,
     .header__social-link:active .header__social-svg .header__social-logo {
-      fill: hsl(153,71%,59%); }
+      fill: hsl(266, 100%, 64%); }
   
   .section-hero {
     display: grid;
@@ -648,7 +649,7 @@
           font-size: 3.2rem;
           letter-spacing: -0.044rem; } }
     .footer__logo:hover, .footer__logo:active {
-      color: hsl(153,71%,59%); }
+      color: hsl(266, 100%, 64%); }
     .footer__social-box {
       display: flex;
       align-items: center;
@@ -669,7 +670,7 @@
       -webkit-transition: all 300ms ease-in-out; }
     .footer__social-link:hover .footer__social-svg .footer__social-logo,
     .footer__social-link:active .footer__social-svg .footer__social-logo {
-      fill: hsl(153,71%,59%); }
+      fill: hsl(266, 100%, 64%); }
   
   .form {
     grid-column: center-start / center-end;
@@ -696,7 +697,7 @@
     .form__group {
       position: relative; }
     .form__group.success .form__input {
-      border-bottom: 1px solid hsl(153,71%,59%); }
+      border-bottom: 1px solid hsl(266, 100%, 64%); }
     .form__group.error .form__input {
       border-bottom: 1px solid hsl(7,100%,68%); }
     .form__group.error .form__small {
